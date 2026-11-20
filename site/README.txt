@@ -1,0 +1,1 @@
+Serve this folder using any static web server. Entry point: index.html. No build required. Energy figures and image processing are predefined exhibition simulations.

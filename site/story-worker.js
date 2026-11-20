@@ -1,0 +1,1 @@
+importScripts('story-cpu.js?v=5');let renderer;onmessage=e=>{if(e.data.init){renderer=createStoryCPU(e.data.canvas,e.data.scene);postMessage('ready')}else{renderer.draw(e.data);postMessage('drawn')}};

@@ -1,0 +1,1 @@
+importScripts('renderer2d.js');let renderer;onmessage=e=>{let d=e.data;if(d.type==='init'){renderer=create2DRenderer(d.canvas,d.faces,d.options);postMessage('ready')}else if(renderer){renderer.draw(d);postMessage('drawn')}};
